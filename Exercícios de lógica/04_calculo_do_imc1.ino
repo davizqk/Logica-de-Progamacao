@@ -14,6 +14,13 @@ float imc = 0;
 
 void loop()
 {
+  //cabeçalho
+  Serial.println ("|------------------------------|");//primeira linha
+  Serial.println ("|                              |");//segunda linha
+  Serial.println ("|        LOPAL - EX_04         |");//terceira linha
+  Serial.println ("|                              |");//quarta linha
+  Serial.println ("|------------------------------|");//quinta linha
+  
   // Entrada
   Serial.println("Digite seu nome:");
   while (!Serial.available()) {}      

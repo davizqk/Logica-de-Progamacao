@@ -10,6 +10,13 @@ float centimetros =0;
 
 void loop()
 {
+  //cabeçalho
+  Serial.println ("|------------------------------|");//primeira linha
+  Serial.println ("|                              |");//segunda linha
+  Serial.println ("|        LOPAL - EX_06         |");//terceira linha
+  Serial.println ("|                              |");//quarta linha
+  Serial.println ("|------------------------------|");//quinta linha
+  
   //entrada
   Serial.println ("Digite as polegadas: ");//pergunta 
   while(! Serial.available() );//espera o usuario digitar/dar um <Enter>
