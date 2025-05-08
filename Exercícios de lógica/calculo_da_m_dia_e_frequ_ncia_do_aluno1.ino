@@ -2,7 +2,7 @@
 
 Calcule a média entre duas notas.
 Verifique se o aluno foi aprovado:
-Aprovado se média é MAIoR OU IGUAL A 6 e SE A frequênciaÉ MAIOR OU IGUAL 75%.
+Aprovado se média é MAIOR OU IGUAL A 6 e SE A frequência É MAIOR OU IGUAL 75%.
 Caso contrário, exiba se foi reprovado por nota, por frequência ou por ambos.
 Se a média for exatamente 10, exiba: "Parabéns! Nota máxima!
 
