@@ -72,6 +72,6 @@ void loop()
     Serial.println("%");
     Serial.println("Sua media foi: " + String(media) );
     Serial.println("Voce foi reprovado por sua nota e frequencia baixa!");
-  
+  }
   Serial.println();
 }
