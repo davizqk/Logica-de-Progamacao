@@ -55,19 +55,19 @@ void setup()
       break;
     
       case 2:subtracao = numero1 - numero2;
-      Serial.println("CARAMBA 00! O resultado da sua soma foi: " + String(subtracao));
+      Serial.println("CARAMBA 00! O resultado da sua subtracao foi: " + String(subtracao));
       Serial.println("--------------------------------------");
       Serial.println();
       break;
       
       case 3:multiplicacao = numero1 * numero2;
-      Serial.println("CARAMBA 00! O resultado da sua soma foi: " + String(multiplicacao));
+      Serial.println("CARAMBA 00! O resultado da sua multiplicacao foi: " + String(multiplicacao));
       Serial.println("--------------------------------------");
       Serial.println();
       break;
       
       case 4:divisao = numero1 / numero2;
-      Serial.println("CARAMBA 00! O resultado da sua soma foi: " + String(divisao));
+      Serial.println("CARAMBA 00! O resultado da sua divisao foi: " + String(divisao));
       Serial.println("--------------------------------------");
       Serial.println();
       break;
