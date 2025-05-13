@@ -54,22 +54,22 @@ void setup()
       Serial.println();
     } else if(escolhaDaOperacao == 2){
       subtracao = numero1 - numero2;
-      Serial.println("CARAMBA 00! O resultado da sua soma foi: " + String(subtracao));
+      Serial.println("CARAMBA 00! O resultado da sua subtracao foi: " + String(subtracao));
       Serial.println("--------------------------------------");
       Serial.println();
-    } if(escolhaDaOperacao == 3){
+    } else if(escolhaDaOperacao == 3){
       multiplicacao = numero1 * numero2;
-      Serial.println("CARAMBA 00! O resultado da sua soma foi: " + String(multiplicacao));
+      Serial.println("CARAMBA 00! O resultado da sua multiplicacao foi: " + String(multiplicacao));
       Serial.println("--------------------------------------");
       Serial.println();
     } else if(escolhaDaOperacao == 4){
       divisao = numero1 / numero2;
-      Serial.println("CARAMBA 00! O resultado da sua soma foi: " + String(divisao));
+      Serial.println("CARAMBA 00! O resultado da sua divisao foi: " + String(divisao));
       Serial.println("--------------------------------------");
       Serial.println();
     } 
     
-    Serial.println("Eai 00, deseja continuar operando?? se sim, digite [Sim], se nao digite [Nao]");
+    Serial.println("Eai 00, deseja continuar operando?? se sim, digite [sim], se nao digite [nao]");
     while(! Serial.available() );
     
     
